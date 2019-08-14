@@ -1,0 +1,143 @@
+body {
+  /* background-color: darkslateblue; */
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/dby8jpa-e40d7a06-e6e6-4b38-9560-a2f52c3c34cb.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGJ5OGpwYS1lNDBkN2EwNi1lNmU2LTRiMzgtOTU2MC1hMmY1MmMzYzM0Y2IuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.h_jdsg6T3F4vBM0ntdm53AP7pVmfDmpMbmHlhKG_24I);
+  background-size: cover;
+}
+
+  /* font-family: 'DM Serif Display', serif; */
+}
+
+h1 {
+
+  font-size: 80px;
+  font-family: 'DM Serif Display', serif;
+  color: white;
+}
+
+
+a {
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  /* font-family: cursive; */
+  /* font-family: 'DM Serif Display', serif; */
+}
+
+
+.button1 {
+  background-color:white;
+  font-family: 'Libre Caslon Text', serif;
+  color: black;
+  border: 2px solid #FF69B4	;
+  border-radius: 8px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.button2 {
+  background-color: black;
+  font-family: 'Libre Caslon Text', serif;
+  color: black;
+  border: 2px solid darkturquoise;
+  border-radius: 12px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.button3 {
+  background-color: white;
+  font-family: 'Libre Caslon Text', serif;
+  color: black;
+  border: 2px solid #800080 ;
+  border-radius: 4px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 13px;
+}
+
+.button4 {
+  background-color: black;
+  font-family: 'Libre Caslon Text', serif;
+  color: black;
+  border: 2px solid #800080 ;
+  border-radius: 4px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 13px;
+}
+
+.content {
+  background-color: white;
+
+}
+
+.content2{
+  background-color: white;
+}
+
+.content3 {
+  background-color: white;
+}
+
+.content4 {
+  background-color: white;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+body {
+  background-color: darkslateblue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.glow {
+  color: #fff;
+  text-align: center;
+  line-height: 10px;
+  font-family: monospace;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5c0a29, 0 0 40px #5c0a29, 0 0 50px #5c0a29, 0 0 60px #5c0a29, 0 0 70px #5c0a29;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#films {
+  font-size: 200px;
+  padding-bottom: 30px;
+}

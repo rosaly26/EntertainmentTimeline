@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> The Music Page </title>
+    <link rel="dropdown" href="rap.html">
+    <link rel="stylesheet" href="rap.css">
+    <link href="https://fonts.googleapis.com/css?family=Metrophobic|Petit+Formal+Script|Shrikhand|Bangers|Poiret+One|Scheherazade|Satisfy|Playfair+Display+SC|Playball|Merienda|Fredericka+the+Great|Faster+One|DM+Serif+Display|Libre+Caslon+Text|Sigmar+One&display=swap" rel="stylesheet">
+
+    <script src="music.js"> </script>
+    <!-- <u1>
+    <li><a href="Arkahome.html"> Home </a></li>
+    <li><a href="fpartpage.html"> Art</a></li>
+    <li><a href="musicpg.html">Music</a></li>
+    <li><a href="moviespage.html">Films</a></li>
+    </u1> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      /* font-family: "Lato", sans-serif; */
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .glow {
+      font-size: 60px;
+      color: #fff;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0c84ed, 0 0 40px #0c84ed, 0 0 50px #0c84ed, 0 0 60px #0c84ed, 0 0 70px #0c84ed;
+      }
+
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+    </style>
+    </head>
+    <body>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Arkahome.html">Home</a>
+      <a href="fpartpage.html">Art</a>
+      <a href="musicpg.html">Music</a>
+      <a href="moviespage.html">Films</a>
+      <a href="reference.html">Reference/Generator</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+    <br>
+    <br>
+  </head>
+  <body id= "background">
+    <center>
+      <h1 class="glow" id="musicheader"> M U S I C </h1>
+      <!-- <a href="rap.html" class = "button1"> Rap </a>
+      &nbsp; <a href = "pop.html" class = "button2"> Pop </a>
+      &nbsp; <a href = "country.html" class = "button3"> Country </a> -->
+      <div>
+        <h2 class = "glow"> <a href= "rap.html">Rap</h2>
+        <h2 class = "glow"> <a href= "pop.html">Pop</h2>
+        <h2 class ="glow"> <a href="country.html">Country</h2>
+      </div>
+    </center>
+      <!-- <center> -->
+      <!-- <h1> Pick your favorite genre! </h1> -->
+
+      <!-- <img src="mickey.png" height="150px"> -->
+      <!-- <img src="sttich4.gif"height="100px"> -->
+      <!-- <img src="stich3.gif" height="100px"> -->
+  </body>
+</html>

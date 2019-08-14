@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> The Reference Page </title>
+    <link rel="stylesheet" href="generator.css">
+    <script src = "generator.js"> </script>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Prata|Saira+Stencil+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Raleway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Arkahome.html">Home</a>
+      <a href="fpartpage.html">Art</a>
+      <a href="musicpg.html">Music</a>
+      <a href="moviespage.html">Films</a>
+      <a href="reference.html">Reference/Generator</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <center>
+      <h1 id ="title"> Generator For Your Entertainment </h1>
+      <div>
+        <img src="./mask.png"height="250px">
+      </div>
+      <select id = "dropdown1" onchange="updateSelector()">
+        <option value = "art"> Art </option>
+        <option value = "films"> Films </option>
+        <option value = "music"> Music </option>
+      </select>
+      <select id = "dropdown2" onchange="generateInfo()">
+        <option value = "choose"> Choose from dropdown </option>
+        <option value="stilllifes"> Still Lifes </option>
+        <option value="Portraits"> Portraits </option>
+        <option value="Figures"> Figures </option>
+      </select>
+      <p id = "info"> Your result: </p>
+
+      <h1> Reference Links:</h1>
+
+      <table>
+        <tr>
+          <th>Art:</th>
+          <td><a href="https://www.quora.com/What-are-the-different-art-forms">Different Forms Of Art</a></td>
+
+        </tr>
+        <tr>
+          <th> Music: </th>
+          <td><a href="https://www.albumoftheyear.org/genre/15-pop/2010s/"> Pop Albums Gathered From, </a>
+            <br>
+          <a href=" https://theboot.com/top-country-albums-1970s/">Country and Rap music Gathered From </a> </td>
+        </tr>
+        <tr>
+          <th> Films: </th>
+          <td>  <a href="https://www.imdb.com/"> Info Gathered From </a></td>
+      </table>
+    </center>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<p id = "bg-slider">
+
+  <center>
+  <h1>Entertainment and the Arts Throughout Time Slideshow:</h1>
+  </center>
+  <center>
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="16stilllife.jpg" style="width:50%">
+    <!-- <div class="text">Caption 1</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <img src="portraits18th.jfif" style="width:40%">
+    <!-- <div class="text">Caption 2</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <img src="clueless.jpg" style="width:35%">
+    <!-- <div class="text">Caption 3</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <img src="ladykillers.jpg" style="width:35%">
+    <!-- <div class="text">Caption 4</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <img src="rap5.jpg" style="width:40%">
+    <!-- <div class="text">Caption 5</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <img src="lemonade.jpg" style="width:50%">
+    <!-- <div class="text">Caption 6</div> -->
+  </div>
+  </center>
+</p>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+</div>
+  </body>
+</html>

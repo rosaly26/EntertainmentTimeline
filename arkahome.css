@@ -1,0 +1,175 @@
+body {
+  background-color: #9cc7df ;
+  text-align: left;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+}
+
+#peep {
+font-family: monosa;
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* div {
+  background-color: white;
+  margin-left:600px;
+  margin-right: 600px;
+} */
+
+#pop {
+  font-family: 'Sigmar One',cursive;
+  font-size: 40px;
+  color:indigo;
+  text-align: left;
+}
+
+#poop {
+  font-family: monospace;
+  font-size: 40px;
+  color:indigo;
+  text-align: left;
+}
+
+
+#pooop {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  color:indigo;
+  text-align: left;
+}
+
+#poooop {
+  font-family: 'Scheherazade', serif;
+  font-size: 40px;
+  color:indigo;
+  text-align: left;
+}
+#bob {
+  /* font-family:'Petit Formal Script', cursive; */
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Satisfy', cursive;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+#bob:hover {
+  background-color: white;
+}
+#bob2 {
+  text-align:center;
+}
+
+h2 {
+  text-align: center;
+  color:indigo;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-family:monospace;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+td{
+  padding: 5px;
+}
+
+th {
+  font-family: monospace, cursive;
+}
+#rose {
+font-family: 'Jacques Francois Shadow', cursive;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  background-color:#111;
+  font-family: monospace;
+  color:white;
+}
+div.top {
+  position: relative;
+  left: 500px;
+}
+div.bottom {
+  position: relative;
+  top: 800px
+  right: 450px;
+}

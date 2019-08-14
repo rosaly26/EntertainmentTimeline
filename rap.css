@@ -1,0 +1,152 @@
+h1{
+ /* font-family: 'Playfair Display SC', serif; */
+ /* font-family: "Playball", cursive; */
+ /* font-family: 'Merienda', cursive; */
+ font-family:'Trattatello', fantasy;
+ letter-spacing: 2px;
+ font-size: 200px;
+ color:pink;
+}
+
+/* h2 {
+  color:dimgrey;
+} */
+body{
+  background-color: PowderBlue;
+  font-family:'Trattatello', monospace;
+  font-size: 30px;
+  line-height: 28px;
+  /* font-family: verdana; */
+}
+
+h3 {
+  font-size: 40px;
+  font-family: monospace;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -415px;
+}
+
+
+/* .button1 {
+  background-color:lavender;
+  font-family: 'DM Serif Display', serif;
+  color: black;
+  border: 2px solid #800080;
+  border-radius: 4px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.button2 {
+  background-color: lavender;
+  font-family: 'DM Serif Display', serif;
+  color: black;
+  border: 2px solid #800080;
+  border-radius: 4px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.button3 {
+  background-color: lavender;
+  font-family: 'DM Serif Display', serif;
+  color: black;
+  border: 2px solid #800080 ;
+  border-radius: 4px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 13px;
+} */
+.content {
+  background-color: AntiqueWhite ;
+}
+
+.content2{
+  background-color: CadetBlue;
+}
+
+.content3 {
+  background-color: LightPink;
+}
+h2 {
+  color: grey;
+}
+
+.container{
+  background-color: black;
+}
+
+img {
+  border-radius: 8px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+/* p{
+  font-size: 18px;
+} */
+
+a{
+  color: white;
+  text-shadow: purple;
+}
+
+#background {
+  background-image: url(https://shaunkitchener.files.wordpress.com/2015/12/mainthumb.jpg);
+  background-size: auto;
+}
+
+.numcolor{
+  color: white;
+}
+#musicheader{
+  font-size: 200px;
+  padding-bottom: 100px;
+
+}

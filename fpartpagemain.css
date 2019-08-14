@@ -1,0 +1,48 @@
+body{
+  background-color: grey;
+  color: white;
+  font-family:'Trattatello', monospace;
+  margin: 10px 30px 10px 30px;
+  font-size: 30px
+}
+h1{
+  color: darkred;
+  font-size: 200px;
+  font-family:monospace;
+}
+
+
+body {
+  background-image: url(https://news.artnet.com/app/news-upload/2017/04/Jean-Michel-Basquiat-Untitled-1982-in-excess-of-60m-961x1024.jpg);
+  background-size: contain;
+}
+h2 {
+  color: #FDD017;
+  font-size: 100px;
+}
+
+.glow {
+  /* font-size: 90px; */
+  color: #fff;
+  text-align: center;
+  line-height: 10px;
+  font-family: monospace;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+#artHeader {
+  color: darkred;
+  font-size: 200px;
+  padding-bottom: 100px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px darkred, 0 0 20px darkred, 0 0 30px darkred, 0 0 40px darkred, 0 0 50px darkred, 0 0 60px darkred, 0 0 70px darkred;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }

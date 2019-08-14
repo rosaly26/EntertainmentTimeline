@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Movies</title>
+    <!-- <link rel="stylesheet" href="movies.css"> -->
+    <link rel="stylesheet" type="text/css" href="movies(css).css">
+    <script src= "movies(js).js"> </script>
+    <link href="https://fonts.googleapis.com/css?family=Metrophobic|Petit+Formal+Script|Shrikhand|Bangers|Poiret+One|Scheherazade|Satisfy|Playfair+Display+SC|Playball|Merienda|Sail|Fredericka+the+Great|Jacques+Francois+Shadow|Great+Vibes|DM+Serif+Display|Libre+Caslon+Text|Sigmar+One&display=swap" rel="stylesheet">
+  </head>
+<style>
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+  </head>
+  <body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Arkahome.html">Home</a>
+    <a href="fpartpage.html">Art</a>
+    <a href="musicpg.html">Music</a>
+    <a href="moviespage.html">Films</a>
+    <a href="reference.html">Reference/Generator</a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
+  <body>
+    <center>
+      <h1 class="glow" id="films">F I L M S </h1>
+      <br>
+      <!-- <img src="stitch2.png" height="120px"> -->
+      <div>
+        <h2 class="glow"> <a href= "ActionAdventurePage.html">Action/Adventure</h2>
+        <br>
+        <h2 class="glow"> <a href= "Comedy.html">Comedy</h2>
+        <br>
+        <h2 class="glow"> <a href="Romance.html">Romance</h2>
+        <br>
+        <h2 class="glow"> <a href="ThrillerHorrorPage.html">Thriller/Horror</h2>
+      </div>
+    </center>
+  </body>
+</html>
