@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Raleway&display=swap" rel="stylesheet">
+
+<style>
+
+/*  */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  /* text-align: left; */
+  font-family: "Times New Roman", Times, serif;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+th {
+  display: inline;
+}
+table {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: none;
+}
+th {
+  float: left;
+  font-family:monospace;
+  font-size: 30px;
+}
+th a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+th a:hover {
+  background-color: black;
+}
+
+
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+  color: ivory;
+}
+
+
+h3 {
+  font-family: monospace;
+  font-size: 20px;
+  color: ivory;
+}
+
+h4 {
+  font-size: 40px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: navy;
+}
+
+p {
+  font-size: 22px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 450px;
+  height: 450px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: CornflowerBlue;
+  color: white;
+  transform: rotateY(180deg);
+
+}
+div.right{
+  position: relative;
+  right:50px
+}
+div.left{
+  position: relative;
+  left: 50px
+}
+</style>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</head>
+
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Arkahome.html">Home</a>
+  <a href="fpartpage.html">Art</a>
+  <a href="musicpg.html">Music</a>
+  <a href="moviespage.html">Films</a>
+  <a href="reference.html">Reference/Generator</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<center>
+  <table>
+    <tr>
+      <th><a href="ActionAdventurePage.html"> Action/Adventure </a></th>
+      <th><a href="Comedy.html"> Comedy </a></th>
+      <th><a href="Romance.html"> Romance </a></th>
+      <th><a href="ThrillerHorrorPage.html"> Thriller/ Horror</a></th>
+    </tr>
+  </table>
+</center>
+  <br>
+  <br>
+
+<center>
+<h1>Action/Adventure Movies Through The Decades...</h1>
+
+
+<div class="flip-card right">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="superman.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1950s</h4>
+      <p>Reporters Clark Kent and Lois Lane arrive in the small town of Silsby to witness the drilling of the world's deepest oil well. The drill, however, has penetrated the underground home of a race of small, furry people who then come to the surface at night to look around. The fact that they glow in the dark scares the townfolk, who form a mob, led by the vicious Luke Benson, intent on killing the strange people. Only Superman has a chance to prevent this tragedy.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card left">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="dirtydozen.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1960s</h4>
+      <p>A Major with an attitude problem and a history of getting things done is told to interview military prisoners with death sentences or long terms for a dangerous mission; To parachute behind enemy lines and cause havoc for the German Generals at a rest house on the eve of D-Day.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card right">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="bigboss.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1970s</h4>
+      <p>Cheng is a city boy who moves with his cousins to work at a ice factory.
+        He does this with a family promise never to get involved in any fight.
+        However, when members of his family begin disappearing after meeting the management of the factor, the resulting mystery and pressures forces him to break that vow and take on the villainy of the Big Boss.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card left">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="terminator.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1980s</h4>
+      <p>A cyborg is sent from the future on a deadly mission.
+        He has to kill Sarah Connor, a young woman whose life will have a great significance in years to come. Sarah has only one protector - Kyle Reese - also sent from the future.
+        The Terminator uses his exceptional intelligence and strength to find Sarah, but is there any way to stop the seemingly indestructible cyborg.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card right">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="maskofzorro.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1990s</h4>
+      <p>The original Zorro, Don Diego de la Vega (Sir Anthony Hopkins), is captured and imprisoned just as Spain concedes California to Santa Anna.
+        Twenty years go by and his mortal enemy, Don Rafael Montero (Stuart Wilson), returns to California with a plan to become wealthy at the expense of the peasants.
+        The original Zorro escapes from prison and trains a new Zorro to take his place.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card left">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="smith.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>2000s</h4>
+      <p>John and Jane Smith are a normal married couple, living a normal life in a normal suburb, working normal jobs...well, if you can call secretly being assassins "normal".
+        But neither Jane nor John knows about their spouse's secret, until they are surprised to find each other as targets!
+        But on their quest to kill each other, they learn a lot more about each other than they ever did in five (or six) years of marriage.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card right">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="avengers.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>2010s</h4>
+      <p>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...</p>
+    </div>
+  </center>
+</body>
+</html>

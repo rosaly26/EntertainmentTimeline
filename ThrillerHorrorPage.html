@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+      <link rel="stylesheet" href="movie(css).css">
+      <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Raleway&display=swap" rel="stylesheet">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      body {
+        font-family: monospace;
+        text-align: left;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        text-align: left;
+        font-family: "Times New Roman", Times, serif;
+
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      </style>
+      </head>
+      <body>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Arkahome.html">Home</a>
+        <a href="fpartpage.html">Art</a>
+        <a href="musicpg.html">Music</a>
+        <a href="moviespage.html">Films</a>
+        <a href="reference.html">Reference/Generator</a>
+      </div>
+
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
+    <center>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    h1 {
+      font-family: monospace;
+      font-size: 50px;
+      color: lightcyan;
+    }
+
+
+    h3 {
+      font-family: monospace;
+      font-size: 30px;
+      color: lightcyan;
+    }
+    h4 {
+      font-size: 40px;
+    }
+
+    p{
+      font-size: 22px;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: darkslategray
+    }
+
+
+    .flip-card {
+      background-color: transparent;
+      width: 450px;
+      height: 450px;
+      perspective: 1000px;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
+
+    .flip-card-back {
+      background-color: black;
+      color: lightcyan;
+      transform: rotateY(180deg);
+
+    }
+    div.right{
+      position: relative;
+      right:50px
+    }
+    div.left{
+      position: relative;
+      left: 50px
+    }
+    th {
+      display: inline;
+    }
+    table {
+
+      list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      overflow: hidden;
+      background-color: none;
+    }
+    th {
+      float: left;
+      font-family: monospace;
+      font-size: 30px;
+    }
+    th a {
+      display: block;
+      color: lightcyan;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    th a:hover {
+      background-color: black;
+    }
+    </style>
+    </head>
+    <body>
+      <center>
+        <table>
+          <tr>
+            <th><a href="ActionAdventurePage.html"> Action/Adventure </a></th>
+            <th><a href="Comedy.html"> Comedy </a></th>
+            <th><a href="Romance.html"> Romance </a></th>
+            <th><a href="ThrillerHorrorPage.html"> Thriller/ Horror</a></th>
+          </tr>
+        </table>
+      </center>
+        <br>
+        <br>
+    <h1>Thriller/Horror Movies Through The Decades...</h1>
+
+
+    <div class="flip-card right ">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="woman.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1950s</h4>
+          <p>Frank Johnson, sole witness to a gangland murder, goes into hiding and is trailed by Police Inspector Ferris, on the theory that Frank is trying to escape from possible retaliation. Frank's wife, Eleanor, suspects he is actually running away from their unsuccessful marriage. Aided by a newspaperman, Danny Leggett, Eleanor sets out to locate her husband. The killer is also looking for him, and keeps close tabs on Eleanor.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card left">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="june.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1960s</h4>
+          <p>Two aging film actresses live as virtual recluses in an old Hollywood mansion. Jane Hudson, a successful child star, cares for her crippled sister Blanche, who's career in later years eclipsed that of Jane. Now the two live together, their relationship affected by simmering subconscious thoughts of mutual envy, hate and revenge.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card right">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="chinatown.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1970s</h4>
+          <p>In 1937 Los Angeles, private detective J.J. Gittes is hired by a woman to investigate whether her husband is having an affair. The husband, Hollis Mulwray, is the chief water engineer for the city of Los Angeles. Soon after Gittes delivers the photos that seem to confirm her suspicions, he meets the man's real wife and, intrigued, investigates further. Then Hollis Mulwray turns up dead.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card left">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="shining.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1980s</h4>
+          <p>Signing a contract, Jack Torrance, a normal writer and former teacher agrees to take care of a hotel which has a long, violent past that puts everyone in the hotel in a nervous situation. While Jack slowly gets more violent and angry of his life, his son, Danny, tries to use a special talent, the "Shining", to inform the people outside about whatever that is going on in the hotel.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card right">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="silence.jfif" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1990s</h4>
+          <p>Clarice Starling, a young intelligent F.B.I. trainee, has been sent to the Baltimore state hospital for the criminally insane to interview an inmate, Dr. Hannibal "the cannibal" Lecter, a brilliant renowned psychiatrist turned infamous psychopathic serial killer. She must match wits with Lecter, who has the darkest of all minds, and trust him to give her clues in the search for "Buffalo Bill", a nickname given to a loose, unknown, unstoppable psychopathic serial killer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card left">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="jeepers.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>2000s</h4>
+          <p>Bickering siblings Darry and Trish are driving home for college break when they make a horrific and bizarre discovery in an old church basement. Break may have to wait as Darry and Trish are relentlessly pursued by The Creeper, a creature who who is hell-bent on eating them. Gore, tragedy, and an unexpected ending ensue.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card right">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="getout.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>2010s</h4>
+          <p>Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.
+
+    </p>
+        </div>
+    </body>
+    </html>

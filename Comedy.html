@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    font-family: monospace;
+    text-align: left;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+  </head>
+  <body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Arkahome.html">Home</a>
+    <a href="fpartpage.html">Art</a>
+    <a href="musicpg.html">Music</a>
+    <a href="moviespage.html">Films</a>
+    <a href="reference.html">Reference/Generator</a>
+  </div>
+
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
+
+
+
+
+
+<center>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+  color: white
+}
+
+
+h3 {
+  font-family: monospace;
+  font-size: 30px;
+  color: white;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: mediumvioletred
+}
+
+p {
+  font-size: 21px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 450px;
+  height: 450px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: Plum;
+  color: white;
+  transform: rotateY(180deg);
+}
+div.right{
+  position: relative;
+  right:50px
+}
+div.left{
+  position: relative;
+  left: 50px
+}
+th {
+  display: inline;
+}
+table {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: none;
+}
+th {
+  float: left;
+  font-family:monospace;
+  font-size: 30px;
+}
+th a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+th a:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+  <center>
+    <table>
+      <tr>
+        <th><a href="ActionAdventurePage.html"> Action/Adventure </a></th>
+        <th><a href="Comedy.html"> Comedy </a></th>
+        <th><a href="Romance.html"> Romance </a></th>
+        <th><a href="ThrillerHorrorPage.html"> Thriller/ Horror</a></th>
+      </tr>
+    </table>
+  </center>
+    <br>
+    <br>
+
+<h1>Comedy Movies Through The Decades...</h1>
+
+
+<div class="flip-card right">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="ladykillers.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1950s</h4>
+      <p>A gang planning a 'job' find themselves living with a little old lady, who thinks they are musicians. When the gang set out to kill Mrs Wilberforce, they run into one problem after another, and they get what they deserve.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card left">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="madmad.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1960s</h4>
+      <p>After a long prison sentence Smiler Grogan is heading at high speed to a California park where he hid $350,000 from a job 15 years previously.
+         He accidentally careens over a cliff in view of four cars whose occupants go down to help.
+        The dying Grogan gives details of where the money is buried and when the witnesses fail to agree on sharing the cash, a crazy chase develops across the state.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card right">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="holygrail.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1970s</h4>
+      <p>History is turned on its comic head when, in 10th century England, King Arthur travels the countryside to find knights who will join him at the Round Table in Camelot. Gathering up the men is a tale in itself but after a bit of a party at Camelot, many decide to leave only to be stopped by God who sends them on a quest: to find the Holy Grail. After a series of individual adventures, the knights are reunited but must face a wizard named Tim, killer rabbits and lessons in the use of holy hand grenades.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card left">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="club.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1980s</h4>
+      <p>They were five students with nothing in common, faced with spending a Saturday detention together in their high school library. At 7 a.m., they had nothing to say, but by 4 p.m., they had bared their souls to each other and become good friends. To the outside world they were simply a Brain, an Athlete, a Basket Case, a Princess, and a Criminal, but to each other, they would always be the Breakfast Club.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card right">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="dumb.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>1990s</h4>
+      <p>Harry and Lloyd are two good friends who happen to be really stupid. The duo set out on a cross country trip from Providence to Aspen, Colorado to return a briefcase full of money to its rightful owner, a beautiful woman named Mary Swanson. After a trip of one mishap after another, the duo eventually make it to Aspen. But the two soon realize that Mary and her briefcase are the least of their problems.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card left">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="meangirls.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>2000s</h4>
+      <p>Lindsay Lohan stars as Cady Heron, a 16 year old homeschooled girl who not only makes the mistake of falling for Aaron Samuels (Jonathan Bennett), the ex-boyfriend of queenbee Regina George (Rachel McAdams), but also unintentionally joins The Plastics, led by Regina herself. Join Cady as she learns that high school life can and will be really tough.</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card right">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="easyA.jpg" alt="Avatar" style="width:450px;height:450px;">
+    </div>
+    <div class="flip-card-back">
+      <h4>2010s</h4>
+      <p>After a little white lie about losing her virginity gets out, a clean cut high school girl sees her life paralleling Hester Prynne's in "The Scarlet Letter," which she is currently studying in school - until she decides to use the rumor mill to advance her social and financial standing.</p>
+    </div>
+</body>
+</html>

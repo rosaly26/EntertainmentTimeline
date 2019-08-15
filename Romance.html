@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="movie(css).css">
+      <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Raleway&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      body {
+        font-family: monospace;
+        text-align: left;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        text-align: left;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      th {
+        display: inline;
+      }
+      table {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color: none;
+      }
+      th {
+        float: left;
+        font-family: monospace;
+        font-size: 30px;
+      }
+      th a {
+        display: block;
+        color: peachpuff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      th a:hover {
+        background-color: black;
+      }
+      </style>
+      </head>
+      <body>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Arkahome.html">Home</a>
+        <a href="fpartpage.html">Art</a>
+        <a href="musicpg.html">Music</a>
+        <a href="moviespage.html">Films</a>
+        <a href="reference.html">Reference/Generator</a>
+      </div>
+
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
+
+
+    <center>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    h1 {
+      font-family: monospace;
+      font-size: 50px;
+      color: peachpuff;
+    }
+
+
+    h3 {
+      font-family: monospace;
+      font-size: 30px;
+      color: peachpuff;
+    }
+
+    h4 {
+      font-size: 40px
+    }
+
+    p {
+      font-size: 22px
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: crimson;
+    }
+
+
+    .flip-card {
+      background-color: transparent;
+      width: 450px;
+      height: 450px;
+      perspective: 1000px;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
+
+    .flip-card-back {
+      background-color: peachpuff;
+      color: red;
+      transform: rotateY(180deg);
+
+    }
+    div.right{
+      position: relative;
+      right:50px
+    }
+    div.left{
+      position: relative;
+      left: 50px
+    }
+    </style>
+    </head>
+    <body>
+      <center>
+        <table>
+          <tr>
+            <th><a href="ActionAdventurePage.html"> Action/Adventure </a></th>
+            <th><a href="Comedy.html"> Comedy </a></th>
+            <th><a href="Romance.html"> Romance </a></th>
+            <th><a href="ThrillerHorrorPage.html"> Thriller/ Horror</a></th>
+          </tr>
+        </table>
+      </center>
+        <br>
+        <br>
+
+    <h1>Romance Movies Through The Decades..</h1>
+
+
+    <div class="flip-card right">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="lovingyou.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1950s</h4>
+          <p>Deke Rivers is a delivery man who is discovered by publicist Glenda Markle and country-western musician Tex Warner who want to promote the talented newcomer to fame and fortune, giving him every break he deserves. Romantic complications arise as Susan, another singer in the group, offers him devoted admiration as Glenda leads him on with promises of a golden future.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card left">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="breakfast.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1960s</h4>
+          <p>Holly Golightly is a superficial, ambitious, money-orientated New York socialite. Paul Varjak, a writer, moves into her building and they become friends. Ultimately Paul falls in love with Holly but will she reciprocate or follow her ambitions?</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card right">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="grease.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1970s</h4>
+          <p>A musical about teens in love in the 50's! It's California 1959 and greaser Danny Zuko and Australian Sandy Olsson are in love. They spend time at the beach, and when they go back to school, what neither of them knows is that they both now attend Rydell High.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card left">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="sayanything.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1980s</h4>
+          <p>High school senior Lloyd Dobler wants nothing more than to go out with beautiful and intelligent Diane Court. Lloyd attempts to win her heart over the objections of her over-protective father before Diane leaves for a scholarship in England.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card right">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="clueless.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>1990s</h4>
+          <p>Cher, a high school student in Beverly Hills, must survive the ups and downs of adolescent life. Her external demeanor at first seems superficial, but rather it hides her wit, charm, and intelligence which help her to deal with relationships, friends, family, school, and the all-important teenage social life.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card left">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="twilight.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>2000s</h4>
+          <p>Bella Swan is a clumsy, kind hearted teenager with a knack for getting into trouble. Edward Cullen is an intelligent, good looking vampire who is trying to hide his secret. Against all odds, the two fall in love but will a pack of blood thirsty trackers and the disapproval of their family and friends separate them?</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card right">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="tfios.jpg" alt="Avatar" style="width:450px;height:450px;">
+        </div>
+        <div class="flip-card-back">
+          <h4>2010s</h4>
+          <p>Hazel and Augustus are two teenagers who share an acerbic wit, a disdain for the conventional, and a love that sweeps them on a journey. Their relationship is all the more miraculous, given that Hazel's other constant companion is an oxygen tank, Gus jokes about his prosthetic leg, and they meet and fall in love at a cancer support group.</p>
+        </div>
+    </body>
+  </html>
